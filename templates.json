@@ -23,7 +23,7 @@
     "description": "The open platform for beautiful analytics and monitoring",
     "categories": ["Monitoring"],
     "platform": "linux",
-    "logo": "https://github.com/grafana/grafana/blob/master/public/img/logo_transparent_400x.png",
+    "logo": "https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_200x.png",
     "image": "grafana/grafana:latest",
     "ports": [
       "3000/tcp"
