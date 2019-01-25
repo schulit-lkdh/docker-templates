@@ -16,4 +16,17 @@
       "3306/tcp"
     ],
     "volumes": [{"container": "/var/lib/mysql"}]
+  },
+{
+    "type": 1,
+    "title": "Grafana",
+    "description": "The open platform for beautiful analytics and monitoring",
+    "categories": ["Monitoring"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg",
+    "image": "grafana/grafana:latest",
+    "ports": [
+      "3000/tcp"
+    ],
+    "volumes": [{"grafana-storage": "/var/lib/grafana"}]
   }]
