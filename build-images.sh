@@ -1,3 +1,5 @@
 #!/bin/bash
 cd /root
-git clone 
+git clone https://github.com/schulit-lkdh/docker-telegraf-node-snmp.git 
+cd docker-telegraf-node-snmp
+docker build .
