@@ -25,6 +25,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_200x.png",
     "image": "grafana/grafana:latest",
+    "restart_policy": "unless-stopped",
     "ports": [
       "3000/tcp"
     ],
