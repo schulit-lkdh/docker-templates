@@ -45,11 +45,5 @@
       "2222:22/tcp",
       "5000:5000/tcp" 
     ],
-    "volumes": [
-      {
-        "/etc/gitlab",
-        "/var/log/gitlab",
-        "/var/opt/gitlab"
-      }
-    ]
+    "volumes": ["/etc/gitlab","/var/log/gitlab","/var/opt/gitlab"]
   }]  
