@@ -47,9 +47,9 @@
     ],
     "volumes": [
       {
-        "gitlab_config": "/etc/gitlab",
-        "gitlab_logs": "/var/log/gitlab",
-        "gitlab_data": "/var/opt/gitlab"
+        "/etc/gitlab",
+        "/var/log/gitlab",
+        "/var/opt/gitlab"
       }
     ]
   }]  
