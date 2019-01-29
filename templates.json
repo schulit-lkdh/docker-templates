@@ -29,4 +29,23 @@
       "3000/tcp"
     ],
     "volumes": [{"grafana-storage": "/var/lib/grafana"}]
+  },
+{
+    "type": 1,
+    "title": "GitLab",
+    "description": "Git Server",
+    "categories": ["Developement"],
+    "platform": "linux",
+    "logo": "",
+    "image": "gitlab/gitlab-ce:latest",
+    "ports": [
+      "80:80/tcp",
+      "443:443/tcp",
+      "2222:22/tcp"        
+    ],
+    "volumes": [{
+       "gitlab_config": "/etc/gitlab",
+       "gitlab_logs": "/var/log/gitlab",
+       "gitlab_data": "/var/opt/gitlab",
+                }]
   }]
